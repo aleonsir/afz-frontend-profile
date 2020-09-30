@@ -1,0 +1,38 @@
+.no-gutters{
+    --bs-gutter-x: 0 !important;
+}
+
+.afzfp-sidebar{
+    background-color: #172a74;
+    padding: 2rem;
+}
+
+.afzfp-sidebar ul{
+    list-style: none;
+    position: sticky;
+    top: 2rem;
+}
+
+.afzfp-sidebar ul li,
+.afzfp-sidebar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.afzfp-main{
+    padding: 2rem;
+}
+
+.afzfp-notice{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2rem;
+    background-color: #34a853;
+    color: #FFF;
+}
+
+.afzfp-notice.error{
+    background-color: #ea4335;
+}
